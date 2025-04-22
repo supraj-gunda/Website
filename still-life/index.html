@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Coding from Life</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="base.css" type="text/css" />
+	<style>
+		/* put your CSS here */
+		.canvas {
+			background: url("redFelt.png");
+		}
+		.apple {
+			position: absolute;
+			background: url("redApple.png");
+			height: 34%;
+			width: 30%;
+			clip-path: ellipse(32% 55%);
+			bottom: 24%;
+			right: 11%;
+			rotate: 12deg;
+			background-size: contain;
+		}
+		.appleHole {
+			position: absolute;
+			background: url("hole.png");
+			background-position: center;
+			background-size: contain;
+			height: 58%;
+			width: 28%;
+			clip-path: ellipse(13% 5%);
+			bottom: 24%;
+			right: 11%;
+			rotate: 8deg;		
+		}
+		.ruler {
+			background: url("ruler.jpeg");
+			height: 49%;
+			width: 8%;
+			transform: skew(48deg, -12deg);
+			bottom: 10%;
+			position: absolute;
+			right: 68%;
+		}
+		.vase{
+			height: 49%;
+			width: 22%;
+			border-right: 3px solid white;
+			border-left: 3px solid white;
+			background: url("glassTexture.jpeg");
+			opacity: 73%;
+			position: absolute;
+			right: 37%;
+			bottom: 35%;
+		}
+		.vaseBottom{
+			height: 23%;
+			width: 22%;
+			background: url("glassTexture.jpeg");
+			position: absolute;
+			opacity: 91%;
+			bottom: 25%;
+			right: 37%;
+			border-radius: 50%;
+		}
+		.vaseTop{
+			height: 23%;
+			width: 22%;
+			background: url("glassTexture.jpeg");
+			position: absolute;
+			opacity: 70%;
+			bottom: 73%;
+			right: 37%;
+			border-radius: 50%;
+		}
+		.stalk1 {
+			height: 76%;
+			width: 16px;
+			background: url("stalk.jpeg");
+			transform: rotate(-21deg);
+			left: 52%;
+			bottom: 30%;
+			position: absolute;
+			opacity: 94%;
+			border-radius: 6px;
+		}
+		.stalk2 {
+			height: 85%;
+			width: 16px;
+			background: url("stalk.jpeg");
+			transform: rotate(29deg);
+			left: 55%;
+			bottom: 28%;
+			position: absolute;
+			opacity: 94%;
+			border-radius: 6px;
+		}
+		.flower1 {
+			position: absolute;
+			border-radius: 130%;
+			height: 79px;
+			width: 139px;
+			background: url("flower.jpeg");
+			background-size: contain;
+			clip-path: ellipse(106% 32%);
+			rotate: -17deg;
+			top: -13%;
+			left: 36%;
+		}
+		.flower2 {
+			position: absolute;
+			border-radius: 130%;
+			height: 79px;
+			width: 139px;
+			background: url("flower.jpeg");
+			background-size: contain;
+			clip-path: ellipse(106% 32%);
+			rotate: 43deg;
+			top: -15%;
+			left: 61%;
+		}
+		.cakePlate{
+			height: 23%;
+			width: 22%;
+			background: url("glassTexture.jpeg");
+			position: absolute;
+			opacity: 75%;
+			bottom: 54%;
+			right: 61%;
+			border-radius: 50%;
+		}
+		.cake {
+			width: 0;
+			height: 0;
+			border-top: 47px solid transparent;
+			border-right: 177px solid #fff5c1;
+			border-bottom: 47px solid transparent;
+			position: absolute;
+			bottom: 59%;
+			right: 64%;
+			transform: skew(-7deg, -5deg);		
+		}
+		.candle {
+			position: absolute;
+			bottom: 69%;
+			right: 69.5%;
+			height: 13%;
+			width: 1%;
+			background-color: white;
+		}
+		.light {
+			position: absolute;
+			background: url("fire.jpeg");
+			background-position: center;
+			background-size: contain;
+			height: 41.5%;
+			width: 22%;
+			clip-path: ellipse(5% 9%);
+			bottom: 65%;
+			right: 59%;
+		}
+	</style>
+</head>
+
+<body>
+
+  <div class="canvas">
+		<div class="apple">
+		</div>
+		<div class="appleHole">
+		</div>
+		<div class="ruler">
+		</div>
+		<div class="vaseBottom">
+		</div>
+		<div class="vase">
+		</div>
+		<div class="vaseTop">
+		</div>
+		<div class="stalk1">
+		</div>
+		<div class="stalk2">
+		</div>
+		<div class="flower1">
+		</div>
+		<div class="flower2">
+		</div>
+		<div class="cakePlate">
+		</div>
+		<div class="cake">
+		</div>
+		<div class="candle">
+		</div>
+		<div class="light">
+		</div>
+  </div>
+
+</body>
+
+</html>
